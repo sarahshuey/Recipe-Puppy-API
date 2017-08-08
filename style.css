@@ -1,3 +1,39 @@
-body{
-  background-color: green;
+body{background-color: #F7F3E7;
+}
+header{
+  padding:15px 15px 15px 43px;
+  background-color: #66ad72;
+}
+h2{
+  color: #f8f9e8;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+img{
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.results{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.eachResult{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9e8;
+  margin:5px;
+  padding: 5px;
+  border:1px solid #e3e5c9;
+  flex-basis: 30%;
+  text-align: center;
+}
+.title{
+  font-size: 20px;
+}
+.ingredients{
+padding: 0 15px;
 }
