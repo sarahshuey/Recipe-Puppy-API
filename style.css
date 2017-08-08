@@ -37,3 +37,10 @@ img{
 .ingredients{
 padding: 0 15px;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+button:focus {
+  outline:0;
+}
